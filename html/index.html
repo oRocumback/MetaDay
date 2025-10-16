@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evento — Assistente Virtual</title>
+  <link rel="stylesheet" href="./../css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header class="site-header">
+      <div class="brand">       
+        <div class="logo">
+          <img src="./../metaday_logo.png" alt="metaday_logo">
+        </div> 
+        <div>
+          <h1>Metaday</h1>
+        </div>
+      </div>
+      <nav class="top-nav">
+        <a href="#home" class="primary">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#programacao">Programação</a>
+        <a href="#parceiros">Nossos Parceiros</a>
+        <!-- <a href="#mapa">Mapa</a> -->
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <section id="home" class="card hero">
+        <div class="hero-left">
+          <p class="kicker">Bem-vindo ao futuro</p>
+          <h2 class="title">Explore o Metaday Fatec 2025 com sua assistente virtual</h2>
+          <p class="lead">Converse com nossa IA para descobrir horários, palestras e locais do evento.</p>
+          <div class="cta-row">
+            <a href="#assistente" class="btn btn-primary">Falar com a Assistente</a>
+            <a href="#programacao" class="btn btn-ghost">Ver Programação</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div id="assistente" class="chat-widget card">
+                <div class="chat-header">💬 Assistente Virtual</div>
+                <div class="chat-body">
+                    <div class="message bot">Olá! 👋 Sou sua assistente virtual. Como posso te ajudar hoje?</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" placeholder="Digite sua pergunta..."/>
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="card section">
+        <h2>Sobre o Evento</h2>
+        <p>O Metaday 2025 reúne profissionais e entusiastas das áreas de tecnologia, inovação e ciência de dados. Durante três dias, você poderá participar de palestras, workshops e demonstrações de startups.</p>
+      </section>
+
+      <section id="programacao" class="card section">
+        <h2>Programação</h2>
+        <ul class="schedule">
+          <li><strong>12/12 – 09h:</strong> Abertura com Dr. Rafael Moreira</li>
+          <li><strong>12/12 – 14h:</strong> Painel “IA no Mundo Real”</li>
+          <li><strong>13/12 – 10h:</strong> Workshop de Python para Iniciantes</li>
+          <li><strong>14/12 – 18h:</strong> Encerramento com banda TechBeats</li>
+        </ul>
+      </section>
+
+      <!-- <section id="mapa" class="card section">
+        <h2>Mapa do Evento</h2>
+        <p>O TechSummit será realizado no Centro de Convenções de São Paulo. Consulte o mapa físico no local ou peça para a assistente te guiar até o auditório certo.</p>
+        <div class="map-placeholder">[Mapa Interativo Aqui]</div>
+      </section> -->
+    </main>
+
+    <!-- Chat Widget (visual) -->
+    <!-- <div id="assistente" class="chat-widget card">
+      <div class="chat-header">💬 Assistente Virtual</div>
+      <div class="chat-body">
+        <div class="message bot">Olá! 👋 Sou sua assistente virtual. Como posso te ajudar hoje?</div>
+      </div>
+      <div class="chat-input">
+        <input type="text" placeholder="Digite sua pergunta..." />
+        <button>Enviar</button>
+      </div>
+    </div> -->
+
+    <footer id="parceiros">
+        <div class="parceiros">
+            <p class="parceiros">Parceiros desse ano: </p>
+            <img src="./../escolasaga_logo.jpg" alt="Logo Escola Saga" class="logos">
+            <img src="./../crisbom_logo.png" alt="Logo Escola Saga" class="logos">
+            <img src="./../logo-cna-idiomas.webp" alt="Logo Escola Saga" class="cna">
+            <img src="./../Logotipo_da_Kiss_FM.png" alt="Logo Escola Saga" class="logos">
+            <img src="./../logo_zapburger.png" alt="Logo Escola Saga" class="logos">
+            <p class="parceiros">© 2025 Metaday Fatec — By Esdras Rocumback</p>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
